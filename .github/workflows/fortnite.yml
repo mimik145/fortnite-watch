@@ -24,7 +24,7 @@ jobs:
       - name: Check shop
         id: shop
         env:
-          SKIN_NAME: "a"                       # <- название скина по-английски
+          SKIN_NAME: "jinx"                       # <- название скина по-английски
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # <- берётся из Secrets
         run: python check_once.py
 
